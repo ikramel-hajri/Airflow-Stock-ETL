@@ -1,0 +1,27 @@
+Steps to Obtain the token.json File:
+
+Create a Google Cloud Project:
+
+Go to the Google Cloud Console.
+Create a new project or select an existing project.
+Enable Google Drive API:
+
+In your Google Cloud project, navigate to the "APIs & Services" > "Library."
+Search for "Google Drive API" and enable it for your project.
+Create a Service Account:
+
+In the "APIs & Services" > "Credentials" section, click on "Create credentials."
+Select "Service Account Key."
+Enter a name for the service account and assign the required roles, such as "Editor" or "Viewer," depending on the level of access you need.
+Choose a role for the service account (e.g., "Service Account User").
+Select "JSON" as the key type and click "Create" to generate the JSON key file.
+Download token.json:
+
+The JSON key file will be downloaded to your local machine.
+This file is the token.json you will use for authentication in your code.
+Ensure that you keep this token.json file secure, as it grants access to your Google Drive account. Do not share it publicly or expose it in your code repositories.
+
+
+
+
+
