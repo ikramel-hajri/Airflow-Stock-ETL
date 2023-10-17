@@ -11,7 +11,7 @@ This project focuses on the extraction, preprocessing, and automated data manage
 
 ### Data Preprocessing
 - Converted the timestamp column to a datetime format.
-- Calculated a 10-period moving average for trend analysis.
+- Calculated the moving average for trend analysis.
 - Saved the preprocessed data as "processed_stock_data.csv."
 
 ### Uploading to Google Drive
